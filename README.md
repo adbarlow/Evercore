@@ -53,7 +53,7 @@ Now, let's navigate to the newly create Azure Storage resource and upload some p
 
 10. Select an image to upload from your computer
 
-    - **Note**: For this example, we'll be using a [Microsoft Logo](https://aka.ms/microsoftlogo)
+    - **Note**: For this example, we'll be using a [Free Image](https://www.pexels.com/photo/white-ceramic-teacup-with-saucer-near-two-books-above-gray-floral-textile-904616/o)
 
 11. Select Upload
 
