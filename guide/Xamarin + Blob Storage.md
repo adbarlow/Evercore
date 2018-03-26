@@ -73,7 +73,7 @@ Let's make a simple Xamarin.Forms app that uses our image from Azure Blob Storag
 
 Add the following code to a Xamarin.Forms project, making sure to replace `"Your Connection String"` with the Connection String created in Step 13.
 
-![Simple Xamarin Forms App Using Azure Blob Storage](./XamarinBlobStorageSampleAppDiagram.png)
+![Simple Xamarin Forms App Using Azure Blob Storage](/guide/resources/XamarinBlobStorageSampleAppDiagram.png)
 
 ### App.cs
 
@@ -209,7 +209,7 @@ This Xamarin app uses a [SQLite Database](https://github.com/praeclarum/sqlite-n
 
 This Xamarin app also allows the user to take photos and save them to [Azure Blob Storage](https://aka.ms/xamarinblog/azureblobstorage). To do this, the Xamarin app uploads the image to an [Azure Function](https://aka.ms/XamarinBlog/AzureFunctions), and the [Azure Function](https://aka.ms/XamarinBlog/AzureFunctions) saves the image in [Azure Blob Storage](https://aka.ms/xamarinblog/azureblobstorage), then adds the image metadata to the [Azure SQL Database](https://aka.ms/XamarinBlog/AzureSQL).
 
-![Azure Blob Storage Sample App Diagram](./AzureBlobStorageSampleAppDiagram.png)
+![Azure Blob Storage Sample App Diagram](/guide/resources/AzureBlobStorageSampleAppDiagram.png)
 
 ## Learn More
 
@@ -219,9 +219,3 @@ Visit the Microsoft Docs to learn more about Azure Blob Storage and Azure Functi
 - [How to use Blob Storage from Xamarin](https://aka.ms/XamarinBlog/AzureBlobStorageWithXamarin)
 - [Azure Functions](https://aka.ms/XamarinBlog/AzureFunctions)
 - [Azure Blob Storage + Azure Functions Sample](https://github.com/brminnick/AzureBlobStorageSampleApp)
-
-### About The Author
-
-Brandon Minnick is a Xamarin + Azure Developer Advocate at Microsoft. As a Developer Advocate, Brandon loves helping developers build cloud-connected mobile apps! Brandon loves talking about mobile and invites you to start up a conversation [@BrandonXamarin](https://twitter.com/intent/user?user_id=3418408341)!
-
-[Discuss this post in the Xamarin Forums]("https://forums.xamarin.com/categories/xamarin-blog")
