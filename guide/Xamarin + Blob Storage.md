@@ -1,7 +1,5 @@
 # Add Cloud Storage to Your App with Azure Blob Storage
 
-Hey XamFam!
-
 Cloud Storage has become a must-have feature for mobile apps. It gives us the ability to store our large files securely in the cloud, which helps to reduce the size of our APKs and IPAs, and to safely and securely distribute files across our mobile app users.
 
 [Azure Blob Storage](https://aka.ms/xamarinblog/azureblobstorage) makes it easy for Xamarin developers to implement Cloud Storage for our cross-platform apps, allowing us to share 100% code.
@@ -20,7 +18,7 @@ If you are new to Azure, [click here](https://aka.ms/XamarinBlog/FreeAzureCredit
 
 1. In the [Azure Portal](https://portal.azure.com), create a new Storage Account.
 
-![Create Azure Blob Storage Container](./CreateAzureStorageContainer.png)
+![Create Azure Blob Storage Container](/guide/resources/CreateAzureStorageContainer.png)
 
 ### Create New Blob Container
 
@@ -28,11 +26,11 @@ Now, let's navigate to the newly create Azure Storage resource and upload some p
 
 2. In the Azure Notification menu (the bell icon at the top of the Azure Portal), select "Go to resource"
 
-![Navigate to Azure Blob Storage Resource](./NavigateToResource.png)
+![Navigate to Azure Blob Storage Resource](/guide/resources/NavigateToResource.png)
 
 3. Click on Browse Blobs
 
-![Click On Browse Blobs](./BrowseBlobs.png)
+![Click On Browse Blobs](/guide/resources/BrowseBlobs.png)
 
 4. Click on "+ Container"
    - **Note**: A container is like a folder in the cloud. In it we will store "Blobs" which is just another name for a file.
@@ -45,11 +43,11 @@ Now, let's navigate to the newly create Azure Storage resource and upload some p
 
 7. Click Ok
 
-![Click On Add New Container](./AddNewContainer.png)
+![Click On Add New Container](/guide/resources/AddNewContainer.png)
 
 8. Click on the newly created container, "photos"
 
-![Select Photos Container](./SelectPhotosContainer.png)
+![Select Photos Container](/guide/resources/SelectPhotosContainer.png)
 
 9. Select Upload
 
@@ -59,13 +57,13 @@ Now, let's navigate to the newly create Azure Storage resource and upload some p
 
 11. Select Upload
 
-![Select Upload Images](./UploadImages.png)
+![Select Upload Images](/guide/resources/UploadImages.png)
 
 12. On the Azure Storage menu, select "Access Keys"
 
 13. Copy the "Connection string" for Key1. We'll need this for our Xamarin app!
 
-![Copy Connection String](./ConnectionString.png)
+![Copy Connection String](/guide/resources/ConnectionString.png)
 
 Our Azure Storage resource is set up. Let's start working on our app!
 
