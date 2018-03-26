@@ -1,3 +1,8 @@
+---
+layout: page
+title: Evercore Hack
+---
+
 # Evercore | Add Cloud Storage to Your App with Azure Blob Storage
 
 Cloud Storage has become a must-have feature for mobile apps. It gives us the ability to store our large files securely in the cloud, which helps to reduce the size of our APKs and IPAs, and to safely and securely distribute files across our mobile app users.
