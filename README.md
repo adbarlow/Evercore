@@ -71,6 +71,8 @@ Our Azure Storage resource is set up. Let's start working on our app!
 
 Let's make a simple Xamarin.Forms app that uses our image from Azure Blob Storage. It will be a single-page app that communicates directly with our Azure Blob Storage Container using the [Azure Storage SDK for .NET](https://aka.ms/xamarinblog/azurestoragesdk).
 
+**Note**: If you have never created a Xamarin.Forms project before, you can follow this [Xamarin.Forms Quickstart](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/get-started/hello-xamarin-forms/quickstart?tabs=vswin)
+
 Add the following code to a Xamarin.Forms project, making sure to replace `"Your Connection String"` with the Connection String created in Step 13.
 
 ![Simple Xamarin Forms App Using Azure Blob Storage](/guide/resources/XamarinBlobStorageSampleAppDiagram.png)
