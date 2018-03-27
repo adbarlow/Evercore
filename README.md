@@ -171,7 +171,7 @@ public static async Task<List<T>> GetBlobs<T>(string containerName, string prefi
     }
     catch (Exception e)
     {
-        DebugServices.Log(e);
+        //Handle Exception
     }
 
     return blobList;
