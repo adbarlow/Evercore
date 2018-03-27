@@ -145,7 +145,7 @@ public class ImagePage : ContentPage
 
 ```csharp
 readonly static CloudStorageAccount _cloudStorageAccount = CloudStorageAccount.Parse("Your Connection String");
-readonly static CloudBlobClient _blobClient = new CloudBlobClient _cloudStorageAccount.CreateCloudBlobClient();
+readonly static CloudBlobClient _blobClient = _cloudStorageAccount.CreateCloudBlobClient();
 
 public static async Task<List<T>> GetBlobs<T>(string containerName, string prefix = "", int? maxresultsPerQuery = null, BlobListingDetails blobListingDetails = BlobListingDetails.None) where T : ICloudBlob
 {
